@@ -1,10 +1,13 @@
 {
-  "name": "deobf",
+  "name": "@bjornskjald/deobf",
   "version": "1.0.0",
   "description": "ECMAScript deobfuscator... kinda",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deobf": "index.js"
   },
   "repository": {
     "type": "git",
